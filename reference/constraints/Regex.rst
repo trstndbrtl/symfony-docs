@@ -103,9 +103,9 @@ it a custom message:
         {
             /**
              * @Assert\Regex(
-             *     pattern="/\d/",
-             *     match=false,
-             *     message="Your name cannot contain a number"
+             *     pattern = "/\d/",
+             *     match   = false,
+             *     message = "Your name cannot contain a number"
              * )
              */
             protected $firstName;
